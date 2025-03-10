@@ -6,7 +6,9 @@ module.exports = {
       colors:{
         dark_blue : '#19182C',
         light_blue : '#282A3E',
-        grey : '#66667C'
+        grey : '#66667C',
+        purple : '#5E38E5',
+        orange : '#FE7B02'
       },
       screens:{
         sm : '320px',

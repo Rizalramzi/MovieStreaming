@@ -9,50 +9,52 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <style>
-        /* Optional: Custom styles */
         .swiper-container {
             width: 100%;
             overflow: hidden;
         }
         .swiper-slide {
-            width: auto !important; /* Adjust based on your content */
+            width: auto !important;
         }
     </style>
 </head>
 <body>
-    <div class="max-w-[640px] bg-dark_blue h-screen">
+    <div class="max-w-[640px] bg-dark_blue min-h-max h-screen pb-10">
         <nav class="flex justify-between items-center">
-            <div class="space-y-2 ps-6 pt-6">
-                <h1 class="text-3xl font-black tracking-wider">Moviez</h1>
-                <p class="text-grey text-sm">Watch much easier</p>
+            <div class="space-y-1 ps-6 pt-6">
+                <h1 class="text-[1.75rem] font-black tracking-wider">Moviez</h1>
+                <p class="text-grey text-[1rem]">Watch much easier</p>
             </div>
             <div class="pt-6">
-                <div class="bg-light_blue w-14 h-11 flex items-center justify-center rounded-l-full">
-                    <img src="assets/icons/search.svg" alt="" class="w-6 h-6">
+                <div class="bg-light_blue w-[3.438rem] h-[2.813rem] flex items-center justify-center rounded-l-full">
+                    <img src="assets/images/icons/search.svg" alt="" class="w-[1.375rem] h-[1.375rem]">
                 </div>
             </div>
         </nav>
 
-        <main class=" space-y-8">
-            <section id="slider" class="swiper-container ps-6 py-6">
-                <div class="swiper-wrapper">
+        <main class="">
+            <section id="slider" class="swiper-container px-6 pt-[1.875rem]">
+                <div class="swiper-wrapper space-x-0">
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <div class="inline-block">
-                            <img src="assets/thumbnails/johnwick4.png" alt="" class="w-72 h-48 object-cover rounded-3xl">
-                            <div class="flex items-center justify-between mt-6">
+                            <div class="flex flex-col items-center justify-center relative">
+                                <img src="assets/images/thumbnails/johnwick4.png" alt="" class="w-[18.75rem] h-[12.5rem] object-cover rounded-3xl z-50">
+                                <div class="bg-purple w-[15.25rem] h-[1.438rem] blur-2xl absolute z-0 bottom-6 rounded-xl"></div>
+                            </div>
+                            <div class="flex items-center justify-between mt-[1.25rem]">
                                 <div class="space-y-1">
                                     <h4 class="text-xl font-semibold">John Wick 4</h4>
-                                    <p class="text-grey text-sm">Action, Crime</p>
+                                    <p class="text-grey text-[1rem]">Action, Crime</p>
                                 </div>
                                 <div>
                                     <ul>
                                         <li class="flex items-center space-x-1">
-                                            <img src="assets/icons/gold-star.svg" alt="" class="w-5 h-5">
-                                            <img src="assets/icons/gold-star.svg" alt="" class="w-5 h-5">
-                                            <img src="assets/icons/gold-star.svg" alt="" class="w-5 h-5">
-                                            <img src="assets/icons/gold-star.svg" alt="" class="w-5 h-5">
-                                            <img src="assets/icons/gold-star.svg" alt="" class="w-5 h-5">
+                                            <img src="assets/images/icons/gold-star.svg" alt="" class="w-[1.125rem] h-[1.125rem]">
+                                            <img src="assets/images/icons/gold-star.svg" alt="" class="w-[1.125rem] h-[1.125rem]">
+                                            <img src="assets/images/icons/gold-star.svg" alt="" class="w-[1.125rem] h-[1.125rem]">
+                                            <img src="assets/images/icons/gold-star.svg" alt="" class="w-[1.125rem] h-[1.125rem]">
+                                            <img src="assets/images/icons/gold-star.svg" alt="" class="w-[1.125rem] h-[1.125rem]">
                                         </li>
                                     </ul>
                                 </div>
@@ -62,20 +64,23 @@
 
                     <div class="swiper-slide">
                         <div class="inline-block">
-                            <img src="assets/thumbnails/bohemian.png" alt="" class="w-72 h-48 object-cover rounded-3xl">
-                            <div class="flex items-center justify-between mt-6">
+                            <div class="flex flex-col items-center justify-center relative">
+                                <img src="assets/images/thumbnails/bohemian.png" alt="" class="w-[18.75rem] h-[12.5rem] object-cover rounded-3xl z-50">
+                                <div class="bg-orange w-[15.25rem] h-[1.438rem] blur-2xl absolute z-0 bottom-6 rounded-xl"></div>
+                            </div>
+                            <div class="flex items-center justify-between mt-[1.25rem]">
                                 <div class="space-y-1">
                                     <h4 class="text-xl font-semibold">Bohemian</h4>
-                                    <p class="text-grey text-sm">Documentary</p>
+                                    <p class="text-grey text-[1rem]">Documentary</p>
                                 </div>
                                 <div>
                                     <ul>
                                         <li class="flex items-center space-x-1">
-                                            <img src="assets/icons/gold-star.svg" alt="" class="w-5 h-5">
-                                            <img src="assets/icons/gold-star.svg" alt="" class="w-5 h-5">
-                                            <img src="assets/icons/gold-star.svg" alt="" class="w-5 h-5">
-                                            <img src="assets/icons/gold-star.svg" alt="" class="w-5 h-5">
-                                            <img src="assets/icons/gold-star.svg" alt="" class="w-5 h-5">
+                                            <img src="assets/images/icons/gold-star.svg" alt="" class="w-[1.125rem] h-[1.125rem]">
+                                            <img src="assets/images/icons/gold-star.svg" alt="" class="w-[1.125rem] h-[1.125rem]">
+                                            <img src="assets/images/icons/gold-star.svg" alt="" class="w-[1.125rem] h-[1.125rem]">
+                                            <img src="assets/images/icons/grey-star.svg" alt="" class="w-[1.125rem] h-[1.125rem]">
+                                            <img src="assets/images/icons/grey-star.svg" alt="" class="w-[1.125rem] h-[1.125rem]">
                                         </li>
                                     </ul>
                                 </div>
@@ -85,48 +90,48 @@
                 </div>
             </section>
 
-            <section id="genre" class="space-y-6 px-6">
+            <section id="genre" class=" px-6 pt-[1.875rem]">
                 <h1 class="text-2xl font-black">From Disney</h1>
-                <div class="space-y-6 w-max">
+                <div class="space-y-[1.875rem] w-max pt-[1.25rem]">
                     <div class="flex items-center">
-                        <div class="w-24 h-32">
-                            <img src="assets/thumbnails/mulan.png" alt="" class="w-24 h-32 rounded-3xl object-cover object-center">
+                        <div class="">
+                            <img src="assets/images/thumbnails/mulan.png" alt="" class="w-[6.25rem] h-[7.813rem] rounded-3xl object-cover object-center">
                         </div>
-                        <div class="space-y-4 ps-8">
-                            <div>
+                        <div class="space-y-[1.25rem] ps-[1.25rem]">
+                            <div class="space-y-1">
                                 <h4 class="text-xl font-semibold">Mulan Session</h4>
-                                <p class="text-grey text-sm">History, War</p>
+                                <p class="text-grey text-[1rem]">History, War</p>
                             </div>
                             <div>
                                 <ul>
                                     <li class="flex items-center space-x-1">
-                                        <img src="assets/icons/gold-star.svg" alt="" class="w-5 h-5">
-                                        <img src="assets/icons/gold-star.svg" alt="" class="w-5 h-5">
-                                        <img src="assets/icons/gold-star.svg" alt="" class="w-5 h-5">
-                                        <img src="assets/icons/grey-star.svg" alt="" class="w-5 h-5">
-                                        <img src="assets/icons/grey-star.svg" alt="" class="w-5 h-5">
+                                        <img src="assets/images/icons/gold-star.svg" alt="" class="w-[1.125rem] h-[1.125rem]">
+                                        <img src="assets/images/icons/gold-star.svg" alt="" class="w-[1.125rem] h-[1.125rem]">
+                                        <img src="assets/images/icons/gold-star.svg" alt="" class="w-[1.125rem] h-[1.125rem]">
+                                        <img src="assets/images/icons/grey-star.svg" alt="" class="w-[1.125rem] h-[1.125rem]">
+                                        <img src="assets/images/icons/grey-star.svg" alt="" class="w-[1.125rem] h-[1.125rem]">
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="flex items-center">
-                        <div class="w-24 h-32">
-                            <img src="assets/thumbnails/beautyandbeast.png" alt="" class="w-24 h-32 rounded-3xl object-cover object-center">
+                        <div class="">
+                            <img src="assets/images/thumbnails/beautyandbeast.png" alt="" class="w-[6.25rem] h-[7.813rem] rounded-3xl object-cover object-center">
                         </div>
-                        <div class="space-y-4 ps-8">
-                            <div>
+                        <div class="space-y-[1.25rem] ps-[1.25rem]">
+                            <div class="space-y-1">
                                 <h4 class="text-xl font-semibold">Beauty & Beast</h4>
-                                <p class="text-grey text-sm">Sci-Fiction</p>
+                                <p class="text-grey text-[1rem]">Sci-Fiction</p>
                             </div>
                             <div>
                                 <ul>
                                     <li class="flex items-center space-x-1">
-                                        <img src="assets/icons/gold-star.svg" alt="" class="w-5 h-5">
-                                        <img src="assets/icons/gold-star.svg" alt="" class="w-5 h-5">
-                                        <img src="assets/icons/gold-star.svg" alt="" class="w-5 h-5">
-                                        <img src="assets/icons/grey-star.svg" alt="" class="w-5 h-5">
-                                        <img src="assets/icons/grey-star.svg" alt="" class="w-5 h-5">
+                                        <img src="assets/images/icons/gold-star.svg" alt="" class="w-[1.125rem] h-[1.125rem]">
+                                        <img src="assets/images/icons/gold-star.svg" alt="" class="w-[1.125rem] h-[1.125rem]">
+                                        <img src="assets/images/icons/gold-star.svg" alt="" class="w-[1.125rem] h-[1.125rem]">
+                                        <img src="assets/images/icons/gold-star.svg" alt="" class="w-[1.125rem] h-[1.125rem]">
+                                        <img src="assets/images/icons/gold-star.svg" alt="" class="w-[1.125rem] h-[1.125rem]">
                                     </li>
                                 </ul>
                             </div>
