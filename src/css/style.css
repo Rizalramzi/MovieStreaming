@@ -6,6 +6,13 @@
     scrollbar-width: none;
 }
 
+.truncate {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
 body{
     background-color: #19182C;
     color: white;
