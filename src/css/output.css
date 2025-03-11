@@ -596,16 +596,28 @@ video {
   position: relative;
 }
 
+.bottom-6 {
+  bottom: 1.5rem;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
 
-.bottom-3 {
-  bottom: 0.75rem;
+.bottom-\[-3rem\] {
+  bottom: -3rem;
 }
 
-.bottom-6 {
-  bottom: 1.5rem;
+.bottom-\[-1rem\] {
+  bottom: -1rem;
+}
+
+.bottom-\[-0\.5rem\] {
+  bottom: -0.5rem;
+}
+
+.bottom-\[-0\.3rem\] {
+  bottom: -0.3rem;
 }
 
 .z-0 {
@@ -614,6 +626,10 @@ video {
 
 .z-50 {
   z-index: 50;
+}
+
+.ms-\[1\.375rem\] {
+  margin-inline-start: 1.375rem;
 }
 
 .mt-\[1\.25rem\] {
@@ -660,6 +676,10 @@ video {
   height: 100vh;
 }
 
+.h-\[1rem\] {
+  height: 1rem;
+}
+
 .min-h-max {
   min-height: -moz-max-content;
   min-height: max-content;
@@ -692,6 +712,14 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-\[5\.125rem\] {
+  width: 5.125rem;
 }
 
 .max-w-\[640px\] {
@@ -767,14 +795,19 @@ video {
   background-color: rgb(40 42 62 / var(--tw-bg-opacity, 1));
 }
 
+.bg-orange {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 123 2 / var(--tw-bg-opacity, 1));
+}
+
 .bg-purple {
   --tw-bg-opacity: 1;
   background-color: rgb(94 56 229 / var(--tw-bg-opacity, 1));
 }
 
-.bg-orange {
+.bg-\[\#169E9F\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(254 123 2 / var(--tw-bg-opacity, 1));
+  background-color: rgb(22 158 159 / var(--tw-bg-opacity, 1));
 }
 
 .object-cover {
@@ -816,6 +849,10 @@ video {
   padding-top: 1.875rem;
 }
 
+.font-avenir {
+  font-family: Avenir, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -842,6 +879,14 @@ video {
   font-weight: 600;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
 .tracking-wider {
   letter-spacing: 0.05em;
 }
@@ -851,17 +896,7 @@ video {
   color: rgb(102 102 124 / var(--tw-text-opacity, 1));
 }
 
-.blur-xl {
-  --tw-blur: blur(24px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 .blur-2xl {
   --tw-blur: blur(40px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.blur-lg {
-  --tw-blur: blur(16px);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }

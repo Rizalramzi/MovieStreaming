@@ -9,6 +9,7 @@
 body{
     background-color: #19182C;
     color: white;
+    font-family: 'Avenir';
 }
 @media (min-width: 640px) {
     body {
